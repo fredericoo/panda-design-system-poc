@@ -1,20 +1,29 @@
 {
-  "name": "ui",
+  "name": "@inploi/ploi",
   "version": "0.0.0",
-  "main": "./index.tsx",
-  "types": "./index.tsx",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "license": "MIT",
   "scripts": {
+    "prepare": "panda codegen",
+    "build": "tsup --dts-resolve",
+    "dev": "tsup --watch --dts-resolve",
     "lint": "eslint \"**/*.ts*\"",
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
+    "@pandacss/dev": "^0.3.2",
+    "@pandacss/types": "^0.3.2",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
-    "react": "^17.0.2",
+    "react": "^18.2.0",
     "tsconfig": "*",
+    "tsup": "^7.0.0",
     "typescript": "^4.5.2"
   }
 }

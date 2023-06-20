@@ -1,4 +1,4 @@
-import * as React from "react";
+export { preset } from "./panda.preset";
 
 // component exports
 export * from "./Button";
