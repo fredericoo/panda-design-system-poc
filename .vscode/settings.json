@@ -1,20 +1,21 @@
 {
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"[typescript]": {
-		"editor.codeActionsOnSave": {
-			"source.organizeImports": true
-		},
-		"typescript.preferences.importModuleSpecifier": "non-relative"
-	},
-	"[typescriptreact]": {
-		"editor.codeActionsOnSave": {
-			"source.organizeImports": true
-		}
-	},
-	"window.commandCenter": true,
-	"editor.rulers": [120]
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "typescript.preferences.importModuleSpecifier": "non-relative"
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "workbench.tree.indent": 12,
+  "window.commandCenter": true,
+  "editor.rulers": [120]
 }

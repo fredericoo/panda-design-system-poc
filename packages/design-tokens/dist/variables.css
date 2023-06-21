@@ -1,0 +1,38 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 21 Jun 2023 10:40:02 GMT
+ */
+
+:root {
+  --main-primary: #e75057;
+  --main-secondary: #101840;
+  --neutrals-white: #ffffff;
+  --neutrals-n1: #f9fafc;
+  --neutrals-n2: #f5f6fa;
+  --neutrals-n3: #edeff5;
+  --neutrals-n4: #d8dae5;
+  --neutrals-n5: #c1c4d6;
+  --neutrals-n6: #919ab8;
+  --neutrals-n7: #495985;
+  --neutrals-n8: #182d63;
+  --neutrals-black: #080c24;
+  --font-families-font: Nexa;
+  --line-heights-0: AUTO;
+  --line-heights-1: 1.2;
+  --font-weights-extrabold: Extra Bold;
+  --font-weights-bold: 700;
+  --font-size-base: 16;
+  --font-size-h4: 40;
+  --font-size-h1: 64;
+  --letter-spacing-0: 0.02em;
+  --letter-spacing-1: -0.02em;
+  --letter-spacing-2: 0em;
+  --paragraph-spacing-0: 0;
+  --button: Extra Bold 16px/AUTO Nexa;
+  --h1: Extra Bold 64px/1.2 Nexa;
+  --h4: 700 40px/1.2 Nexa;
+  --text-case-none: none;
+  --text-decoration-none: none;
+  --paragraph-indent-0: 0px;
+  --base: 8px;
+}
