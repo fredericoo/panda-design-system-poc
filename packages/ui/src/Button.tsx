@@ -2,11 +2,7 @@
 import { styled } from "style-engine/jsx";
 
 export const Button = styled("button", {
-  base: {
-    py: "2",
-    px: "4",
-    rounded: "md",
-  },
+  base: {},
   variants: {
     variant: {
       primary: {
