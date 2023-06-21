@@ -6,7 +6,9 @@ export default function Page() {
   return (
     <div>
       <Header text="Web" />
-      <Button variant="primary">hey</Button>
+      <Button variant="primary" p="$2">
+        hey
+      </Button>
     </div>
   );
 }
