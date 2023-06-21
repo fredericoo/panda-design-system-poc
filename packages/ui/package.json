@@ -1,7 +1,7 @@
 {
   "name": "@inploi/ploi",
   "version": "0.0.0",
-  "main": "dist/index.mjs",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "files": [

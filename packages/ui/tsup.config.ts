@@ -6,5 +6,5 @@ export default defineConfig({
   clean: true,
   dts: true,
   format: ["esm"],
-  external: ["style-engine"],
+  external: ["style-engine", "react"],
 });
