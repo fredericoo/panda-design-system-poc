@@ -1,16 +1,10 @@
 import { defineConfig } from "@pandacss/dev";
-import { preset } from "./src";
+import { pandaConfig } from "./src/pandacss";
 
 const config = defineConfig({
   include: ["./src/**/*.{js,jsx,ts,tsx}"],
 
-  // Ploi overrides
-  preflight: true,
-  strictTokens: true,
-  jsxFramework: "react",
-  presets: [preset],
-  outdir: "style-engine",
-  emitPackage: true,
+  ...pandaConfig,
 });
 
 export default config;

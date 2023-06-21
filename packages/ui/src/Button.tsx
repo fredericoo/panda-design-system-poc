@@ -2,7 +2,9 @@
 import { styled } from "style-engine/jsx";
 
 export const Button = styled("button", {
-  base: {},
+  base: {
+    p: "$2",
+  },
   variants: {
     variant: {
       primary: {
