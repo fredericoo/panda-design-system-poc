@@ -9,6 +9,7 @@
   "main": "dist/pandacss.js",
   "types": "dist/pandacss.d.ts",
   "scripts": {
+    "dev": "tsx src/index.ts --watch",
     "build": "tsx src/index.ts"
   },
   "dependencies": {

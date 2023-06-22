@@ -11,7 +11,7 @@
   "scripts": {
     "prepare": "panda codegen",
     "build": "tsup --dts-resolve",
-    "dev": "tsup --watch --dts-resolve --onSuccess  'tsc --emitDeclarationOnly --declaration'",
+    "dev": "tsup --watch --dts-resolve",
     "lint": "eslint \"**/*.ts*\"",
     "generate:component": "turbo gen react-component"
   },
