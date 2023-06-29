@@ -1,0 +1,154 @@
+{
+  "semantic": {
+    "colors": {
+      "button": {
+        "primary": {
+          "default": {
+            "background": {
+              "value": "{core.colors.main.primary}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{core.colors.neutrals.white}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{core.colors.shade.primary}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{core.colors.neutrals.white}",
+              "type": "color"
+            }
+          },
+          "inactive": {
+            "background": {
+              "value": "{core.colors.neutrals.n5}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{core.colors.neutrals.white}",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "background": {
+              "value": "{core.colors.neutrals.n1}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{core.colors.main.primary}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{core.colors.neutrals.white}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{core.colors.shade.primary}",
+              "type": "color"
+            }
+          },
+          "inactive": {
+            "background": {
+              "value": "{core.colors.neutrals.n1}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{core.colors.neutrals.n5}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "radii": {
+      "button": {
+        "borderRadius": {
+          "value": "{semantic.borderRadius.$2}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "spacing": {
+      "button": {
+        "height": {
+          "s": {
+            "value": "{core.spacing._base} * 4",
+            "type": "sizing"
+          },
+          "m": {
+            "value": "{core.spacing._base} * 5",
+            "type": "sizing"
+          },
+          "l": {
+            "value": "{core.spacing._base} * 6",
+            "type": "sizing"
+          }
+        },
+        "padding": {
+          "l": {
+            "value": "{semantic.spacing.lg}",
+            "type": "spacing"
+          },
+          "m": {
+            "value": "{semantic.spacing.md}",
+            "type": "spacing"
+          },
+          "s": {
+            "value": "{semantic.spacing.md}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "textStyles": {
+    "button": {
+      "label": {
+        "l": {
+          "value": {
+            "fontFamily": "{core.fonts.font}",
+            "fontWeight": "{core.fontWeights.bold}",
+            "lineHeight": "{core.lineHeights.0}",
+            "fontSize": "{semantic.fontSize.$3}",
+            "letterSpacing": "{core.letterSpacings.0}",
+            "paragraphSpacing": "{core.paragraphSpacing.0}",
+            "textCase": "{core.textCase.none}"
+          },
+          "type": "typography"
+        },
+        "m": {
+          "value": {
+            "fontFamily": "{core.fonts.font}",
+            "fontWeight": "{core.fontWeights.bold}",
+            "lineHeight": "{core.lineHeights.0}",
+            "fontSize": "{semantic.fontSize.$3}",
+            "letterSpacing": "{core.letterSpacings.0}",
+            "paragraphSpacing": "{core.paragraphSpacing.0}",
+            "textCase": "{core.textCase.none}"
+          },
+          "type": "typography"
+        },
+        "s": {
+          "value": {
+            "fontFamily": "{core.fonts.font}",
+            "fontWeight": "{core.fontWeights.bold}",
+            "lineHeight": "{core.lineHeights.0}",
+            "fontSize": "{semantic.fontSize.$1}",
+            "letterSpacing": "{core.letterSpacings.0}",
+            "paragraphSpacing": "{core.paragraphSpacing.0}",
+            "textCase": "{core.textCase.none}"
+          },
+          "type": "typography"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "semantic": {
+    "spacing": {
+      "xs": {
+        "value": "$core.spacing.$1",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "$core.spacing.$2",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "$core.spacing.$3",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "$core.spacing.$4",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "$core.spacing.$5",
+        "type": "spacing"
+      }
+    },
+    "borderRadius": {
+      "$1": {
+        "value": "{core.radii.base} * 0.5",
+        "type": "borderRadius"
+      },
+      "$2": {
+        "value": "{core.radii.base}",
+        "type": "borderRadius"
+      },
+      "$3": {
+        "value": "{core.radii.base} * 2",
+        "type": "borderRadius"
+      }
+    },
+    "fontSize": {
+      "$1": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "$2": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "$3": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "$4": {
+        "value": "18",
+        "type": "fontSizes"
+      }
+    }
+  }
+}

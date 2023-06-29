@@ -9,8 +9,8 @@
   "main": "dist/pandacss.js",
   "types": "dist/pandacss.d.ts",
   "scripts": {
-    "dev": "tsx src/index.ts --watch",
-    "build": "tsx src/index.ts"
+    "dev": "tsx watch src/index.ts --clear-screen=false",
+    "build": "tsx src/index.ts --clear-screen=false"
   },
   "dependencies": {
     "@tokens-studio/sd-transforms": "^0.9.9",

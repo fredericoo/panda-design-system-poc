@@ -16,8 +16,9 @@
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.3.2",
-    "@pandacss/types": "^0.3.2",
+    "@inploi/design-tokens": "workspace:*",
+    "@pandacss/dev": "^0.4.0",
+    "@pandacss/types": "^0.4.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eslint": "^7.32.0",
@@ -25,7 +26,6 @@
     "react": "^18.2.0",
     "style-dictionary": "^3.8.0",
     "tsconfig": "workspace:*",
-    "@inploi/design-tokens": "workspace:*",
     "tsup": "^7.0.0",
     "typescript": "^4.5.2"
   }
